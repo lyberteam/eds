@@ -1,0 +1,22 @@
+{
+    "name": "lyberteam/eds",
+    "type": "library",
+    "description": "electronic digital signature library",
+    "homepage": "http://nopage/",
+    "license": [
+      "MIT",
+      "GPL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "Oleg Nemerovets",
+            "email": "nemolvlad@gmail.com",
+            "homepage": "http://nopage"
+        }
+    ],
+    "autoload": {
+	    "psr-4": {
+    	    "Lyberteam\\Eds\\": "src/Eds"
+    	    }
+    }
+}
