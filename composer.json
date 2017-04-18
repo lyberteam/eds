@@ -4,8 +4,7 @@
     "description": "electronic digital signature library",
     "homepage": "http://nopage/",
     "license": [
-      "MIT",
-      "GPL-3.0"
+      "WTFPL"
     ],
     "authors": [
         {
@@ -18,5 +17,12 @@
 	    "psr-4": {
     	    "Lyberteam\\Eds\\": "src/Eds"
     	    }
-    }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "suggest": {
+        "lyberteam/first":  "first eds strategy",
+        "lyberteam/second": "second eds strategy",
+    },
 }

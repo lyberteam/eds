@@ -1,0 +1,22 @@
+{
+	"name": "lyberteam/eds-second",
+	"description": "second strategy for Eds",
+	"keywords": ["signature"],
+	"homepage": "http://nopage",
+	"license": "WTFPL",
+	"authors": [
+		{
+			"name": "Oleg",
+			"email": "nemolvlad@gmail.com",
+			"homepage": "http://nopage"
+		}
+	],
+	"require": {
+		"php": ">=5.6.0",
+	},
+	"autoload": {
+		"psr-0": {
+			"": "."
+		}
+	}
+}
